@@ -1,4 +1,4 @@
-# Project Name: Sorting Algorithms Implementation
+#Sorting Algorithms Implementation
 
 ## Description
 This repository contains Python scripts implementing various sorting algorithms, including Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, and Quicksort. Additionally, it includes a script to analyze the performance of these sorting algorithms on randomly generated arrays.
