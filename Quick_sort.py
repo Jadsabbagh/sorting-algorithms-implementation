@@ -8,6 +8,7 @@ def quicksort(array):
         return quicksort(left) + [pivot] + quicksort(right) #sort left and right reclusively
 
 #example usage:
-arr = [473, 37, 18, 10, 1, 75, 1]
-sorted_arr = quicksort(arr)
-print("Sorted array:", sorted_arr)
+if __name__ == '__main__':
+    arr = [473, 37, 18, 10, 1, 75, 1]
+    sorted_arr = quicksort(arr)
+    print("Sorted array:", sorted_arr)
