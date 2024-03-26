@@ -9,6 +9,7 @@ def insertion_sort(array):
     return array
 
 # Example usage:
-Array = [10, 28, 2810, 37, 1, 182, 17]
-sorted_array = insertion_sort(Array)
-print(f'Sorted array: {sorted_array}')
+if __name__ == '__main__':
+    Array = [10, 28, 2810, 37, 1, 182, 17]
+    sorted_array = insertion_sort(Array)
+    print(f'Sorted array: {sorted_array}')
