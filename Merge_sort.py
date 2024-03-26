@@ -31,6 +31,7 @@ def conquer(left,right):
     return merged
 
 #example:
-Array = [27,18,29,9,12,3,32]
-sorted_array = divide(Array)
-print(sorted_array)
+if __name__ == '__main__':
+    Array = [27,18,29,9,12,3,32]
+    sorted_array = divide(Array)
+    print(sorted_array)
