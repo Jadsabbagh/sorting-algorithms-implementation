@@ -15,6 +15,7 @@ def bubble_sort(array):
     return array
 
 # Example usage:
-Target_list = [28, 38, 2, 18, 29, 20, 19, 39, 92]
-sorted_list = bubble_sort(Target_list)
-print(sorted_list)
+if __name__ == '__main__':
+    Target_list = [28, 38, 2, 18, 29, 20, 19, 39, 92]
+    sorted_list = bubble_sort(Target_list)
+    print(sorted_list)
