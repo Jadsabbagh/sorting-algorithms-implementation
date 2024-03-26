@@ -10,6 +10,7 @@ def selection_sort(array):
     return array
 
 # Example usage:
-Target_list = [28, 38, 2, 18, 29, 20, 19, 39, 92]
-sorted_array = selection_sort(Target_list)
-print(f'Sorted array: {sorted_array}')
+if __name__ == '__main__':
+    Target_list = [28, 38, 2, 18, 29, 20, 19, 39, 92]
+    sorted_array = selection_sort(Target_list)
+    print(f'Sorted array: {sorted_array}')
